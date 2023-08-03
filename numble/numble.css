@@ -1,0 +1,142 @@
+body{
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    color: aquamarine;
+}
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+h2{
+    padding-left: 720px;
+    justify-content: left;
+    color: aquamarine;
+}
+ol{
+    color: aquamarine;
+}
+.container{
+    background-color:black;
+    margin-top: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .number{
+    border: 1px solid #7fffd4;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #000000;
+    width: 300px;
+    height: 30px;
+    align-self: center; 
+    margin-top: 20px;
+    color: aquamarine;
+    font-family: "montserrat";
+}
+::placeholder {
+    color:aquamarine ; 
+  }
+  .btn{
+    border: 1px solid #7fffd4;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color: #7fffd4;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.container textarea{
+    margin-top: 10px;
+    width: 400px;
+    height: 150px;
+    resize: none;
+    border-radius: 5px;
+    background-color: black;
+    color: aquamarine;
+    border: none;
+}
+#op{
+    color: aquamarine;
+    font-size: 18px;
+}
+.inst{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 320px) {
+  /* Adjust styles for screens up to 768px wide (e.g., tablets and smaller devices) */
+  input[type="number"] {
+    width: 80px;
+  }
+  h2{
+    padding-left:  0px;
+  }
+  .container .number{
+    width:240px
+  }
+  .container #op{
+    width:300px
+  }
+}
+
+@media screen and (min-width: 768px) {
+    /* Adjust styles for screens up to 768px wide (e.g., tablets and smaller devices) */
+    input[type="number"] {
+      width: 80px;
+    }
+    h2{
+       padding-left: 120px;
+    }
+  }
+ 
+  @media screen and (min-width: 375px) {
+    /* Adjust styles for screens up to 768px wide (e.g., tablets and smaller devices) */
+    input[type="number"] {
+      width: 80px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    .container .number{
+      width:290px
+    }
+    .container #op{
+      width:350px
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Adjust styles for screens up to 768px wide (e.g., tablets and smaller devices) */
+    input[type="number"] {
+      width: 80px;
+    }
+    h2{
+       padding-left: 260px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    /* Adjust styles for screens up to 768px wide (e.g., tablets and smaller devices) */
+    input[type="number"] {
+      width: 80px;
+    }
+    h2{
+       padding-left: 480px;
+    }
+  }
+  @media screen and (min-width: 1880px) {
+    /* Adjust styles for screens up to 768px wide (e.g., tablets and smaller devices) */
+    input[type="number"] {
+      width: 80px;
+    }
+    h2{
+       padding-left: 720px;
+    }
+  }

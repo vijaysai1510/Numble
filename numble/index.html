@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numble</title>
+    <link rel="stylesheet" href="numble.css">
+</head>
+<body>
+   <h1>Numble</h1>
+    <hr/>
+    <h2>Instructions:</h2>
+    <div class="inst">
+        <br/><br/>
+        <ol class="list">
+            <li>Guess a number in the range of 1 to 100</li>
+            <li>Click on check to check if the guessed number is correct</li>
+            <li>You have 7 tries to guess the number</li>
+        </ol>
+    </div>
+    <div class="container">
+        <input class="number" id="num" type="text" placeholder="Guess a number" autocomplete="off" >
+        <br>
+        <button class="btn" id="btn" onclick="check()">Check</button><br>
+        <textarea name="op" id="op" readonly disabled></textarea>
+    </div>
+    <script src="numble.js"></script>
+</body>
+</html>
